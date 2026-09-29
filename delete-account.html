@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eliminar tu cuenta — Moto Tracker</title>
+<meta name="description" content="Cómo eliminar tu cuenta de Moto Tracker y qué datos se borran.">
+<style>
+  :root {
+    --bg: #0d0f12;
+    --surface1: #16191d;
+    --surface2: #1f2328;
+    --text-primary: #f5f7f8;
+    --text-secondary: #9aa4ab;
+    --accent: #00e5a0;
+    --danger: #ff5a5f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px;
+  }
+  main { max-width: 680px; width: 100%; }
+  .logo { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+  .logo-icon {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,229,160,0.35), rgba(0,229,160,0.05) 70%);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .logo-icon svg { width: 26px; height: 26px; fill: var(--accent); }
+  .logo-text { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; }
+  h1 { font-size: 26px; font-weight: 800; margin: 0 0 8px; text-wrap: balance; }
+  .subtitle { color: var(--text-secondary); font-size: 15px; line-height: 1.6; margin: 0 0 32px; }
+  h2 { font-size: 17px; margin: 0 0 10px; }
+  p, li { color: var(--text-secondary); font-size: 14px; line-height: 1.7; }
+  p { margin: 0 0 12px; }
+  p:last-child { margin-bottom: 0; }
+  ul, ol { padding-left: 20px; margin: 8px 0 12px; }
+  strong { color: var(--text-primary); }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  .card {
+    background: var(--surface1);
+    border: 1px solid var(--surface2);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+  .path {
+    display: inline-block;
+    background: var(--surface2);
+    color: var(--text-primary);
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  a.button {
+    display: inline-block;
+    background: var(--accent);
+    color: #06110d;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 999px;
+    margin-top: 4px;
+  }
+  .warning {
+    border-left: 3px solid var(--danger);
+    padding-left: 12px;
+  }
+  footer { margin-top: 32px; color: var(--text-secondary); font-size: 12px; text-align: center; }
+  footer a { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z"/></svg>
+    </div>
+    <div class="logo-text">Moto Tracker</div>
+  </div>
+
+  <h1>Eliminar tu cuenta de Moto Tracker</h1>
+  <p class="subtitle">Puedes eliminar tu cuenta de Moto Tracker (desarrollada por Acedia) y todos sus datos cuando quieras, desde la app o escribiéndonos.</p>
+
+  <div class="card">
+    <span class="tag">Opción 1 · Al instante</span>
+    <h2>Desde la app</h2>
+    <ol>
+      <li>Abre Moto Tracker e inicia sesión con la cuenta que quieres eliminar.</li>
+      <li>Ve a <span class="path">Mi perfil</span> y baja hasta el final.</li>
+      <li>Toca <span class="path">Eliminar cuenta</span> y confirma con <span class="path">Eliminar para siempre</span>.</li>
+      <li>Para comprobar que eres tú, te pediremos confirmar con la misma cuenta de Google o Apple con que iniciaste sesión.</li>
+    </ol>
+    <p>Tus datos se borran en ese momento y se cierra la sesión.</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">Opción 2 · Sin la app</span>
+    <h2>Pídelo por email</h2>
+    <p>Si ya no tienes la app instalada o no puedes entrar, escríbenos desde el correo de tu cuenta de Moto Tracker (el de Google o Apple con que iniciabas sesión) e incluye tu nombre de usuario en la app.</p>
+    <p>Comprobaremos que el correo coincide con la cuenta y la eliminaremos en un plazo máximo de 30 días. Te confirmaremos por email cuando esté lista.</p>
+    <a class="button" href="mailto:vlogsezio@gmail.com?subject=Eliminar%20mi%20cuenta%20de%20Moto%20Tracker&amp;body=Hola%2C%20quiero%20eliminar%20mi%20cuenta%20de%20Moto%20Tracker.%0A%0ANombre%20de%20usuario%20en%20la%20app%3A%20">Pedir eliminación por email</a>
+  </div>
+
+  <div class="card">
+    <h2>Qué datos se eliminan</h2>
+    <ul>
+      <li>Tu cuenta de inicio de sesión y tu perfil: nombre de usuario, foto, región, estadísticas y récords.</li>
+      <li>Todos tus viajes, con su recorrido, velocidad y distancia.</li>
+      <li>Tus motos registradas y sus fotos.</li>
+      <li>Tus publicaciones del feed, con todos sus comentarios, y los comentarios que dejaste en publicaciones de otros.</li>
+      <li>Las "motos" que diste a publicaciones de otros.</li>
+      <li>Tus amistades y solicitudes de amistad, enviadas y recibidas.</li>
+      <li>Las rutas grupales que creaste. En rutas de otros, se te quita de la lista de participantes y se borra tu última ubicación compartida.</li>
+      <li>Las invitaciones a rutas y las notificaciones que enviaste o recibiste.</li>
+      <li>Tu lista de usuarios bloqueados.</li>
+    </ul>
+    <p class="warning">La eliminación es permanente: no se puede recuperar la cuenta ni sus datos.</p>
+  </div>
+
+  <div class="card">
+    <h2>Qué datos se conservan y por cuánto tiempo</h2>
+    <ul>
+      <li><strong>Reportes de moderación:</strong> si reportaste o bloqueaste a alguien, o si alguien reportó tu contenido, ese reporte (motivo, fecha, identificador de usuario y un extracto de hasta 200 caracteres del contenido reportado) se guarda por seguridad de la comunidad durante <strong>12 meses</strong> desde que se creó, y después se borra automáticamente.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p>¿Dudas sobre tus datos? Escríbenos a <a href="mailto:vlogsezio@gmail.com">vlogsezio@gmail.com</a> o revisa nuestra <a href="privacy.html">política de privacidad</a>.</p>
+  </div>
+
+  <footer>Moto Tracker · Acedia · <a href="index.html">Soporte</a></footer>
+</main>
+</body>
+</html>
